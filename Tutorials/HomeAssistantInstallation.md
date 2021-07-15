@@ -30,7 +30,7 @@ The prerequisites are now in place to install the Home Assistant package from th
 # create a virtual environment (optional, but recommended)
 python -m venv hass
 source hass/bin/activate
-
+pip install -I pytz
 pip install homeassistant
 ```
 
