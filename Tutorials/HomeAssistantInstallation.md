@@ -46,3 +46,11 @@ For more information, here is [a Medium post](https://lucacesarano.medium.com/in
 
 # Addressing Setup
 Home Assistant is now accessible from other devices which are also connected to your home network. To access Home Assistant, find your tablet's network IP address (something like `http://192.168.2.xyz`) by running the `ipconfig` command in Termux, or by logging in to your router's admin console (usually at `http://192.168.2.1`) and finding your tablet in the list of devices. Then, navigate to that address from another device using port 8123: `http://192.168.2.xyz:8123`. The Home Assistant interface should load, the same way it does for `http://localhost:8123` on your tablet.
+
+
+
+UPD:
+
+
+Part of this tutorial was taken from here:
+https://lucacesarano.medium.com/install-home-assistant-hass-on-android-no-root-fb65b2341126
