@@ -36,7 +36,7 @@ The prerequisites are now in place to install the Home Assistant package from th
 python -m venv hass
 source hass/bin/activate
 pip install -I pytz
-pip install PyNaCl==1.3.0
+pip install PyNaCl==1.4.0
 pip install aiohttp_cors
 pip install tzdata
 pip install homeassistant
