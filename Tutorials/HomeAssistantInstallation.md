@@ -19,9 +19,14 @@ Here are the packages to install at this stage:
 
 Install the necessary packages with these commands (confirming with `y` when requested):
 ```bash
-pkg updates
+pkg updates - type Y, then N, then N again
 pkg upgrade
-pkg install python nano openssh termux-api make libjpeg-turbo
+pkg install python
+pkg install nano
+pkg install openssh
+pkg install termux-api
+pkg install make 
+pkg install libjpeg-turbo
 ```
 
 ## Install Home Assistant
@@ -31,6 +36,8 @@ The prerequisites are now in place to install the Home Assistant package from th
 python -m venv hass
 source hass/bin/activate
 pip install -I pytz
+pip install PyNaCl==1.3.0
+pip install aiohttp_cors
 pip install tzdata
 pip install homeassistant
 ```
