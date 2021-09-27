@@ -52,10 +52,22 @@ Firstly,
 
 ### To save your time, Mixed Reality Toolkit with already configured Oculus Integration package can be [downloaded as a project from Github](https://github.com/FedorIvachev/OculusMRTKUnityProject/archive/refs/heads/master.zip). If you want to add MRTK and Oculus integrations into an existing project, you can follow the full setup procedure, which can be found at [MRTK-Setup page](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/MRTKSetup.md).
 
-### 1. Unpack the downloaded archive and then open the downloaded project using Unity HUB. Next, navigate to Assets/MRTK/Examples/Demos/HandTracking/Scenes and Double click on the HandInteractionExamples.unity scene file.
+### 1. Unpack the downloaded archive and then open the downloaded project using Unity HUB. 
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-1.png)
+
+### 1.1 If you are using macOS, you will receive the following warning. You can either press "Move to bin" or "Cancel". For Windows there may be no such issue.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-2.png)
+
+### 1.2 If you press cancel, then select "Allow Anyway" in your security settings. 
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-3.png)
+
+### 1.3 Then select "Open". 
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-4.png)
+
+### 2. After the project has been imported, navigate to Assets/MRTK/Examples/Demos/HandTracking/Scenes and Double click on the HandInteractionExamples.unity scene file.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-11.png)
 
-### 2. Press the play button. 
+### 2.1. Press the play button. 
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-12.png)
 
 ### 3. You have entered the input simulation mode. You can move around the scene by pressing WASD, QE keys, Shift and Space buttons can be used for simulating hands in VR, and use left-click to simulate the pinch gesture. Press the Play button again to exit the Play mode.
