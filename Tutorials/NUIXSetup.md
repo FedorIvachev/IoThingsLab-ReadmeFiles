@@ -25,8 +25,20 @@ Firstly,
 ### 1. Download and Install [Unity HUB](https://store.unity.com/download?ref=personal).
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-2.png)
 
-### 2. Inside Unity HUB preferences, activate a new License (you can register a personal account at [Unity](https://unity.com)).
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-3.png)
+### 2.1 Register a personal account at [Unity](https://unity.com).
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/License-1.png)
+
+### 2.2 Log in to your account in Unity Hub.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/License-2.png)
+
+### 2.3 Select *Activate a new license*.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/License-3.png)
+
+### 2.4 Confirm the user agreement.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/License-4.png)
+
+### 2.5 The license is added to Unity Hub.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/License-5.png)
 
 ### 3. Proceed to the Installs tab.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-4.png)
