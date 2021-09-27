@@ -85,7 +85,7 @@ Firstly,
 ### 7. Click on the Build and Run button, give your build a name and then wait for several minutes. The first build takes more time than later builds. 
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-17.png)
 
-### 8. After the build is completed, check in the Console tab (in Unity) if there are no errors. Put on your Oculus Quest 2 and test the scene.
+### 8. After the build is completed, check in the Console tab (in Unity) if there are errors. Put on your Oculus Quest 2 and test the scene.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-18.png)
 
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Oculus-1.png)
