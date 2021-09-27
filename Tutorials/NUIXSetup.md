@@ -45,16 +45,43 @@ Firstly,
 ### 7. Press Play button to check if there are no errors.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-8.png)
 
-### 8. Press the play button again to finish the project running in the Play mode.
+### 8. Press the play button again to finish the project running in the Play mode. You can exit this project and safely delete it.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-9.png)
 
 ## Mixed Reality Toolkit Setup
 
-### To save your time, Mixed Reality Toolkit with already configured Oculus Integration package can be [downloaded as a project from Tsinghua Cloud](). If you want to add MRTK and Oculus integrations into an existing project, you can follow the full setup procedure, which can be found at [MRTK-Setup page](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/MRTKSetup.md).
-### 1. Open the downloaded project using Unity HUB. Selec
+### To save your time, Mixed Reality Toolkit with already configured Oculus Integration package can be [downloaded as a project from Github](https://github.com/FedorIvachev/OculusMRTKUnityProject/archive/refs/heads/master.zip). If you want to add MRTK and Oculus integrations into an existing project, you can follow the full setup procedure, which can be found at [MRTK-Setup page](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/MRTKSetup.md).
+
+### 1. Unpack the downloaded archive and then open the downloaded project using Unity HUB. Next, navigate to Assets/MRTK/Examples/Demos/HandTracking/Scenes and Double click on the HandInteractionExamples.unity scene file.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-11.png)
+
+### 2. Press the play button. 
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-12.png)
+
+### 3. You have entered the input simulation mode. You can move around the scene by pressing WASD, QE keys, Shift and Space buttons can be used for simulating hands in VR, and use left-click to simulate the pinch gesture. Press the Play button again to exit the Play mode.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-13.png)
+
+### 4. Navigate to File->Build Settings.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-14.png)
+
+### 5. Switch platform to Android. This action may take several minutes.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-15.png)
+
+### 6. Next, click on Add Open Scenes and Select the Oculus Quest inside the Devices List. If Oculus Quest is not recognized in the list, it is either not turned on or the [Development mode](https://developer.oculus.com/documentation/native/android/mobile-device-setup/) is not enabled on it.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-16.png)
+
+### 7. Click on the Build and Run button, give your build a name and then wait for several minutes. The first build takes more time than later builds. 
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-17.png)
+
+### 8. After the build is completed, check in the Console tab (in Unity) if there are no errors. Put on your Oculus Quest 2 and test the scene.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-18.png)
+
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Oculus-1.png)
+
+
 
 ## NUIX-Studio setup
 
-### 1. NUIX-Studio will soon be distributed as a Unity Package. Currently it is a whole Unity project, however, very soon it will be possible to download and import it as a module.
+### 1. [NUIX-Studio](https://github.com/VRSimulator/NUIX-Studio-APP) will soon be distributed as a Unity Package. Currently it is a whole Unity project, however, very soon it will be possible to download and import it as a module.
 
 
