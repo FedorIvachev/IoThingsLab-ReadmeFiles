@@ -1,6 +1,6 @@
 # In this tutorial you will know how to disable Diagnostics window and how to change controls for the Input Simulation Mode.
 ## These are the two main issues users of MRTK faced. Let's start from the first one - diagnostics window. By default, it is always in front of the user, but it can be disabled in several steps.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Oculus-2.png)
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Oculus-2.jpg)
 
 ## 1. Select MixedRealityToolkit GameObject in the Hierarchy window and in the Inspector window clone the DefaultMixedRealityToolkitConfigurationProfile.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/ToolkitConfigurationProfileSetup-1.png)
