@@ -50,7 +50,19 @@
 ### 16. Next, click on Add Open Scenes and Select the Oculus Quest inside the Devices List. If Oculus Quest is not recognized in the list, it is either it is not turned on or the Development mode is not enabled on it.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-16.png)
 
-### 17. Click on Build and Run button, give your build a name and then wait for several minutes. The first build takes more time than later builds. 
+### 17. In your blrowser, go to the [Oculus integration page](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) and add it to your assets.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-16-1.png)
+
+### 18. In Unity, go to the Window->Package Manager and import the Oculus Integration package. To see it on the list, you need to select "Packages: My Assets".
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-16-2.png)
+
+### 19. Next, navigate to Mixed Reality->Toolkit->Utilities->Oculus and click on "Integrate Oculus Integration Unity Modules".
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-16-3.png)
+
+### 20. Click on the Assets->Oculus->OculusProjectConfig.asset and set Hand Tracking support to Controllers and Hands.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-16-4.png)
+
+### 17. Navigate to File->Build Settings and click on Build and Run button, give your build a name and then wait for several minutes. The first build takes more time than later builds. 
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-17.png)
 
 ### 18. After the build is completed, check in the Console tab (in Unity) if there are no errors. Put on your Oculus Quest 2 and test the scene.
