@@ -68,6 +68,6 @@
 ### 18. After the build is completed, check in the Console tab (in Unity) if there are no errors. Put on your Oculus Quest 2 and test the scene.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-18.png)
 
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Oculus-1.png)
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Oculus-2.jpg)
 
-See how to disable diagnostics Window tutorial and how to change the mouse look button in Input Simulation mode in the [next tutorial](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/ToolkitConfigutationProfileSetup.md).
+See how to disable diagnostics Window and how to change the mouse look button in Input Simulation mode in the [next tutorial](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/ToolkitConfigutationProfileSetup.md).
