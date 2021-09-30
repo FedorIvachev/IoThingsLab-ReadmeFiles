@@ -12,6 +12,7 @@
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/ToolkitConfigurationProfileSetup-3.png)
 
 ## 4. Now there won't be any diagnostic window in front of you.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Oculus-1.jpg)
 
 ## The second problem users want to solve is Input Simulation Mode camera rotation not only by the mouse right click. Not everyone uses optical mouses, many people use touchpads instead.
 
