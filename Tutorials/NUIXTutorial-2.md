@@ -32,7 +32,7 @@
 ### 10. And deleted the directional light since later I will use Point Light in a lamp.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-10.png)
 
-### 11. The lamp is taken from the provided prefabs. It has already a light component attached. However, it can not be rotated. Let's fix it.
+### 11. The lamp is taken from the provided prefabs. It has already a light component attached. However, the lamp can not be rotated. Let's fix it.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-11.png)
 
 ### 12. Firstly, select the upper part of the lamp with a selection tool. Right click on the selected gameobject inside the hierarchy - Create empty parent gameobject. I name it "UpperPart". For the rest of the gameobjects, I put them inside anothe parent gameobjects and named it "LowerPart".
