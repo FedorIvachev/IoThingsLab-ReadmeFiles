@@ -35,7 +35,7 @@
 ### 11. The lamp is taken from the provided prefabs. It has already a light component attached. However, the lamp can not be rotated. Let's fix it.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-11.png)
 
-### 12. Firstly, select the upper part of the lamp with a selection tool. Right click on the selected gameobject inside the hierarchy - Create empty parent gameobject. I name it "UpperPart". For the rest of the gameobjects, I put them inside anothe parent gameobjects and named it "LowerPart".
+### 12. Firstly, select the upper part of the lamp with a selection tool. Right click on the selected gameobject inside the hierarchy - Create empty parent gameobject. I named it "UpperPart". For the rest of the gameobjects, I put them inside another parent gameobjects and named it "LowerPart".
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-12.png)
 
 ### 13. Drag and drop the Button prefab. Buttons are located at Assets/MRTK/Features/UX/Interactable/Prefabs. Each Interactable (such as buttons, switches) has a OnClick component. You can edit it to call a specific method. Here I call LampRotator script, which performs a smooth rotation of the lamp. After pressing the play button or testing the APP on Oculus, user just needs to press a button to rotate the lamp.
