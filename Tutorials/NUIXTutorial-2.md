@@ -41,7 +41,7 @@
 ### 13. Drag and drop the Button prefab. Buttons are located at Assets/MRTK/Features/UX/Interactable/Prefabs. Each Interactable (such as buttons, switches) has an OnClick component. You can edit it to call a specific method. Here I call LampRotator script, which performs a smooth rotation of the lamp. After pressing the play button or testing the APP on Oculus, user just needs to press a button to rotate the lamp.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-13.png)
 
-### 14. Next, lets add speech control to the lamp. Firstly, a we drag a SpeechRecognition gameobject to the scene.
+### 14. Next, lets add speech control to the lamp. Firstly, drag a SpeechRecognition gameobject to the scene.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-15.png)
 
 ### 15. One of the childs of this GameObject is NUIX Speech recognition. I decided to not make it complex, so you have more freedom in developing your own specific speech recognition logic. However, if you just want to perform actions by special keywords, this recognizer should be enough. For each type of action, create a GameObject with a wordAction component attached to it. Drag each of the wordAction gameobjects to the trigger words elements.
