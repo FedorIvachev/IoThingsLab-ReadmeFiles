@@ -1,4 +1,4 @@
-# NUIX-Studio Setup
+# NUIX-Studio Setup and Tutorial
 
 ## Firstly, you can [download](https://github.com/FedorIvachev/NUIX-Studio-APP) NUIX-Studio APK demo file to test it. Then, it is strongly suggested to download the NUIX-Studio unitypackage and import it inside your project. Inside the build settings, make sure that all the four environments are in the Scenes in Build list. Press build and run and put on your Quest.
 
@@ -32,7 +32,7 @@
 ### 10. The most useful are buttons, switches, pinchsliders. They are located at Assets/MRTK/Features/UX/Interactable/Prefabs. To use them, just simply drag them onto the scene.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-Pictures/NUIX-Tutorial-11.png)
 
-### 11. I have also uploaded some of the virtual devices most freqesntly asked to share, including: Security camera, Router, Smart bracelet, Smart Speaker, Smartphone and a lamp.
+### 11. I have also uploaded some of the virtual devices most frequently asked to share, including: Security camera, Router, Smart bracelet, Smart Speaker, Smartphone and a lamp.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-Pictures/NUIX-Tutorial-12.png)
 
 The second tutorial can be found [here](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIXTutorial-2.md).
