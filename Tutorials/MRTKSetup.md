@@ -65,5 +65,10 @@
 ### 17. Navigate to File->Build Settings and click on Build and Run button, give your build a name and then wait for several minutes. The first build takes more time than later builds. 
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-17.png)
 
-### 18. After the build is completed, check in the Console tab (in Unity) if there are no errors. Put on your Oculus Quest 2 and test the scene.
+### 18. After the build is completed, check in the Console tab (in Unity) if there are no errors.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-18.png)
+
+### 19. Put on your Oculus Quest 2 and test the scene. You must be able to move in 6DOF and register your hands movements.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Oculus-1.png)
+
+See how to disable diagnostics Window and how to change the mouse look button in Input Simulation mode in the [next tutorial](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/ToolkitConfigutationProfileSetup.md).
