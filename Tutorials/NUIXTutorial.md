@@ -1,6 +1,6 @@
 # NUIX-Studio Setup
 
-## Firstly, you can download NUIX-Studio APK demo file to test it. Then, it is strongly suggested to download the NUIX-Studio unitypackage and import it inside your project. Inside the build settings, make sure that all the four environments are in the Scenes in Build list. Press build and run and put on your Quest.
+## Firstly, you can [download](https://github.com/FedorIvachev/NUIX-Studio-APP) NUIX-Studio APK demo file to test it. Then, it is strongly suggested to download the NUIX-Studio unitypackage and import it inside your project. Inside the build settings, make sure that all the four environments are in the Scenes in Build list. Press build and run and put on your Quest.
 
 ### 1. Currently, there are four different environments to choose from. To select the environment just click on the button.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-Pictures/NUIX-Tutorial-1.png)
