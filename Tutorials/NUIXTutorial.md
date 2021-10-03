@@ -1,18 +1,5 @@
 # NUIX-Studio Setup
 
-
-
-## General info
-In this tutorial you will learn how to setup NUIX-Studio to work with Oculus Quest Virtual Reality Headsets.\
-Firstly,
-
-
-
-## NUIX-Studio setup
-
-### 1. [NUIX-Studio](https://github.com/VRSimulator/NUIX-Studio-APP) is distributed as a Unity Package. 
-
-
 Firstly, run Main scene.
 ### 1. Currently, there are four different environments to choose from. To select the environment just click on the button.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-Pictures/NUIX-Tutorial-1.png)
@@ -46,3 +33,5 @@ Firstly, run Main scene.
 
 ### 11. I have also uploaded some of the virtual devices most freqesntly asked to share, including: Security camera, Router, Smart bracelet, Smart Speaker, Smartphone and a lamp.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-Pictures/NUIX-Tutorial-12.png)
+
+The second tutorial can be found [here]().
