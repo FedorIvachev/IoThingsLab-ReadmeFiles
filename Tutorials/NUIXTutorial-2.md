@@ -1,6 +1,6 @@
 # NUIX-Studio Tutorial - Create IoT device
 
-## Lets create an IoT device. This tutorial is the second part of the NUIX-Studio tutorial series. The first part can be found [here](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIXTutorial.md).
+## Lets create an IoT device. This tutorial is the second part of the NUIX-Studio tutorial series. The first part can be found [here](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIXTutorial.md). You need to git clone the NUIX-Studio [repository](https://github.com/VRSimulator/NUIX-Studio-APP) inside the Assets folder of your project.
 
 ### 1. Firstly, create a new scene.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-1.png)
