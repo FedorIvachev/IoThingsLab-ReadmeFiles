@@ -1,6 +1,6 @@
 # NUIX-Studio Setup and Tutorial
 
-## You can [download](https://github.com/VRSimulator/NUIX-Studio-APP) NUIX-Studio APK demo file to test it.
+## You can [download](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/releases/tag/v2a1) NUIX-Studio APK demo file to test it.
 
 ### 1. Currently, there are four different environments to choose from. To select the environment just click on the button.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-Pictures/NUIX-Tutorial-1.png)
