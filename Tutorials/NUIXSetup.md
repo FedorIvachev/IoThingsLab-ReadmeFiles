@@ -106,6 +106,6 @@ Firstly,
 
 ## NUIX-Studio setup
 
-### 1. [NUIX-Studio](https://github.com/VRSimulator/NUIX-Studio-APP) will soon be distributed as a Unity Package. The installation procedure and tutorial can be found [here](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIXTutorial.md).
+### The installation procedure and tutorial can be found [here](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIXTutorial.md).
 
 
