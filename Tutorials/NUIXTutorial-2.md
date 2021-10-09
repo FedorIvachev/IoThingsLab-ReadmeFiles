@@ -1,111 +1,84 @@
-# Unity + Oculus + Mixed Reality Toolkit + NUIX-Studio Setup
+# NUIX-Studio Tutorial - Create IoT device
 
-## Table of contents
-* [General info](#general-info)
-* [Required software and hardware](#required-software-and-hardware)
-* [Unity Setup](#unity-setup)
-* [Mixed Reality Toolkit Setup](#mixed-reality-toolkit-setup)
-* [NUIX-Studio Setup](#nuix-studio-setup)
+## Lets create an IoT device. This tutorial is the second part of the NUIX-Studio tutorial series. The first part can be found [here](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIXTutorial.md). You need to git clone the NUIX-Studio [repository](https://github.com/VRSimulator/NUIX-Studio-APP) inside the Assets folder of your project.
 
+### 1. Firstly, create a new scene.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-1.png)
 
-## General info
-In this tutorial you will learn how to setup Unity to work with Oculus Quest Virtual Reality Headsets.\
-Firstly,
-* [Unity](https://unity.com) is a game engine, it has plenty of tutorials and is often used by VR researchers;
-* [Oculus Quest / Quest 2](https://www.oculus.com) are the latest generation Virtual Reality Headsets made by Facebook. Oculus SDK provides rich functionality for hands and controllers recognition and VR tools;
-* [Mixed Reality Toolkit](https://github.com/microsoft/MixedRealityToolkit-Unity) provides components and features to be used by the researchers such as buttons, sliders and other UI elements;
-* [NUIX-Studio](https://github.com/VRSimulator/NUIX-Studio-APP) is a platform which can be used to integrate the IoT software inside Virtual Reality. It helps testing AIoT scenarios inside XR (Virtual, Augmented, Mixed Realities).
+### 2. An empty scene should be created.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-2.png)
 
-## Required software and hardware
-| [![Unity](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/images/MRTK170802_Short_18.png)](https://unity3d.com/get-unity/download/archive) [Unity 2020 LTS](https://unity3d.com/get-unity/download/archive)| [![Visual Studio 2019](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/images/MRTK170802_Short_19.png)](http://dev.windows.com/downloads) [Visual Studio 2019 (install with Unity)](http://dev.windows.com/downloads)| [![Oculus Quest 1/2](https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/features/images/MRTK170802_Short_20.png)](https://www.oculus.com/quest-2/) [Oculus Quest 1/2](https://www.oculus.com/quest-2/)|
-| :--- | :--- | :--- |
+### 3. Add floor to the scene.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-3.png)
 
-## Unity Setup
+### 4. Let's drag the PC prefab to this scene.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-4.png)
 
-### 1. Download and Install [Unity HUB](https://store.unity.com/download?ref=personal).
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-2.png)
+### 5. After dragging the prefab, it is better to unpack it completely.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-5.png)
 
-### 2.1 Register a personal account at [Unity](https://unity.com).
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/License-1.png)
+### 6. Adjust the PC position to be on a comfortable height. Select Mixed Reality -> Toolkit->Add to scene and Configure, same as in previous tutorials. Se the configuration Profile in the MixedRealityToolkit Gameobject.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-6.png)
 
-### 2.2 Log in to your account in Unity Hub.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/License-2.png)
+### 7. I deciced to take a table prefab from Unity Asset store. You can add assets to your projects through [Unity website](assetstore.unity.com).
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-7.png)
 
-### 2.3 Select *Activate a new license*.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/License-3.png)
+### 8. Imported this asset.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-8.png)
 
-### 2.4 Confirm the user agreement.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/License-4.png)
+### 9. Adjusted the table and PC positions.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-9.png)
 
-### 2.5 The license is added to Unity Hub.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/License-5.png)
+### 10. And deleted the directional light since later I will use Point Light in a lamp.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-10.png)
 
-### 3. Proceed to the Installs tab.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-4.png)
+### 11. The lamp is taken from the provided prefabs. It has already a light component attached. However, the lamp can not be rotated. Let's fix it.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-11.png)
 
-### 4. Add Unity version 2020, click Next.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-5.png)
+### 12. Firstly, select the upper part of the lamp with a selection tool. Right click on the selected gameobject inside the hierarchy - Create empty parent gameobject. I named it "UpperPart". For the rest of the gameobjects, I put them inside another parent gameobjects and named it "LowerPart".
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-12.png)
 
-### 5. Select Visual Studio, Android Build Support and Documentation. Click Next and wait for the Unity version to be installed.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-6.png)
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-1.png)
+### 13. Drag and drop the Button prefab. Buttons are located at Assets/MRTK/Features/UX/Interactable/Prefabs. Each Interactable (such as buttons, switches) has an OnClick component. You can edit it to call a specific method. Here I call LampRotator script, which performs a smooth rotation of the lamp. After pressing the play button or testing the APP on Oculus, user just needs to press a button to rotate the lamp.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-13.png)
 
-### 6. Go to the Projects tab and create a new project with a 3D template.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-7.png)
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-7-1.png)
+### 14. Next, lets add speech control to the lamp. Firstly, drag a SpeechRecognition gameobject to the scene.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-15.png)
 
-### 7. Press Play button to check if there are no errors.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-8.png)
+### 15. One of the children of this GameObject is NUIX Speech recognition. I decided to not make it complex, so you have more freedom in developing your own specific speech recognition logic. However, if you just want to perform actions by special keywords, this recognizer should be enough. For each type of action, create a GameObject with a wordAction component attached to it. Drag each of the wordAction gameobjects to the trigger words elements.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-16.png)
 
-### 8. Press the play button again to finish the project running in the Play mode. You can exit this project and safely delete it.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-9.png)
+### 16. Inside the wordAction components, register the trigger words and select the actions to be performed. Here I change the light range to 0 when user says "Off", and back to normal when user says "ON". Press Build and run to test the speech recognition. The speech recognition is continious, so you don't need to press button to run the speech recognition every time. 
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-17.png)
 
-## Mixed Reality Toolkit Setup
+### 17. Let's make the lamp movable. Firstly, we need to add a Box collider component to it.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-18.png)
 
-### To save your time, Mixed Reality Toolkit with already configured Oculus Integration package can be [downloaded as a project from Github](https://github.com/FedorIvachev/OculusMRTKUnityProject/archive/refs/heads/master.zip). If you want to add MRTK and Oculus integrations into an existing project, you can follow the full setup procedure, which can be found at [MRTK-Setup page](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/MRTKSetup.md).
+### 18. After adding the box collider component add object manipulator component.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-19.png)
 
-### 1. Unpack the downloaded archive and then open the downloaded project using Unity HUB. 
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-1.png)
+### 19. The standart unity Light class does not provide methods to change the light's color. So let's do it ourselves by creating this script.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-20.png)
 
-### 1.1 If you are using macOS, you will receive the following warning. You can either press "Move to bin" or "Cancel". For Windows there may be no such issue.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-2.png)
+### 20. Attach the light changer script to the Light inside our Lamp. The Light field either can be left empty or you can drag the light from the hierarchy window inside it.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-21.png)
 
-### 1.2 If you press cancel, then select "Allow Anyway" in your security settings. 
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-3.png)
+### 21. Attach a contact widget script onto the Lamp. Let's say we want the lamp to change color to red automatically when the keyboard is close enough to it. We just drag the keyboard gameobject from hierarchy into the Connected Item Translate field and set the available distance. Same as before, actions are assigned when the sensor is triggered (here when the keyboard is far enough from the lamp). We move the lamp closer to the table and can see that the lamp changed its light color to red.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-22.png)
 
-### 1.3 Then select "Open". 
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-4.png)
+### 22. We have created a smart device. Firstly, the lamp can be rotated by pressing a button. Secondly, It can be turned On and Off by Voice commands. Thirdly, It changes its color when is close enough to the keyboard. Next we want to share this IoT device to another student, so he adds more voice commands and more possible interactions. For example, the lamp can become controlled by keyboard shortcuts when it is close to keyboard, or when it is activated for it by a voice command. To share the created IoT device, create a folder, and drag the gameobjects from the scene One by One inside this folder.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-23.png)
 
-### 2. After the project has been imported, navigate to Assets/MRTK/Examples/Demos/HandTracking/Scenes and Double click on the HandInteractionExamples.unity scene file.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-11.png)
+### 23. Next, select Export Package.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-24.png)
 
-### 2.1. Press the play button. 
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-12.png)
+### 24. Checkbox only the scripts and prefabs you have created. 
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-25.png)
 
-### 3. You have entered the input simulation mode. You can move around the scene by pressing WASD, QE keys, Shift and Space buttons can be used for simulating hands in VR, and use left-click to simulate the pinch gesture. Press the Play button again to exit the Play mode.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-13.png)
+### 25. Click export, give your IoT device a name.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-26.png)
 
-### 4. Navigate to File->Build Settings.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-14.png)
-
-### 5. Switch platform to Android. This action may take several minutes.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-15.png)
-
-### 6. Next, click on Add Open Scenes and Select the Oculus Quest inside the Devices List. If Oculus Quest is not recognized in the list, it is either not turned on or the [Development mode](https://developer.oculus.com/documentation/native/android/mobile-device-setup/) is not enabled on it.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-16.png)
-
-### 7. Click on the Build and Run button, give your build a name and then wait for several minutes. The first build takes more time than later builds. 
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-17.png)
-
-### 8. After the build is completed, check in the Console tab (in Unity) if there are errors. Put on your Oculus Quest 2 and test the scene.
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-18.png)
-
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Oculus-1.png)
+### 26. Import other IoT devices same as any .unitypackage file by Import package->Custom Package.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-2-Pictures/NUIX-Tutorial-2-27.png)
 
 
-
-## NUIX-Studio setup
-
-### 1. [NUIX-Studio](https://github.com/VRSimulator/NUIX-Studio-APP) will soon be distributed as a Unity Package. Currently it is a whole Unity project, however, very soon it will be possible to download and import it as a module.
-
-
+## In the next tutorial you will know about each of the items for creating IoT devices NUIX studio provides.
