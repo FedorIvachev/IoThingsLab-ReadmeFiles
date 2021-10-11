@@ -35,4 +35,4 @@
 ### 11. I have also uploaded some of the virtual devices most frequently asked to share, including: Security camera, Router, Smart bracelet, Smart Speaker, Smartphone and a lamp.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-Pictures/NUIX-Tutorial-12.png)
 
-### The second tutorial can be found [here](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIXTutorial-2.md).
+### The second tutorial (Device Creation) can be found [here](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIXTutorial-DeviceCreation.md).
