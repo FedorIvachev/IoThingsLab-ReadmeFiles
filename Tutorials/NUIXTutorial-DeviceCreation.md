@@ -64,4 +64,13 @@
 ### 20. The Thanks word is recognized and camera stops recording.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-CreateDevice-Pictures/NUIX-Tutorial-CreateDevice-20.png)
 
+### 21. To save your device, create a folder for it in the NUIX-Studio SDK.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-CreateDevice-Pictures/NUIX-Tutorial-CreateDevice-21.png)
+
+### 22. Next, drag your device GameObject into the project window. 
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-CreateDevice-Pictures/NUIX-Tutorial-CreateDevice-22.png)
+
+### 23. Now you have created a .prefab file for the smart device, which you can share to your team members.
+![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-CreateDevice-Pictures/NUIX-Tutorial-CreateDevice-23.png)
+
 ## In the next tutorial you will know about each of the items for creating IoT devices NUIX studio provides.
