@@ -73,4 +73,4 @@
 ### 23. Now you have created a .prefab file for the smart device, which you can share to your team members.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Tutorial-CreateDevice-Pictures/NUIX-Tutorial-CreateDevice-23.png)
 
-## In the next tutorial you will know about each of the items for creating IoT devices NUIX studio provides.
+## In the [next](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIXDevices.md) tutorial you will know about each of the items for creating IoT devices NUIX studio provides.
