@@ -62,7 +62,7 @@ Firstly,
 
 ## Mixed Reality Toolkit Setup
 
-### To save your time, Mixed Reality Toolkit with already configured Oculus Integration package can be [downloaded as a project from Github](https://github.com/FedorIvachev/OculusMRTKUnityProject/archive/refs/heads/master.zip). If you want to add MRTK and Oculus integrations into an existing project, you can follow the full setup procedure, which can be found at [MRTK-Setup page](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/MRTKSetup.md).
+### To save your time, Mixed Reality Toolkit with already configured Oculus Integration package can be [downloaded as a project from Github](https://github.com/FedorIvachev/OculusMRTKUnityProject) or a [zip file from Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/ceb1ae0985564191bffd/?dl=1). If you want to add MRTK and Oculus integrations into an existing project, you can follow the full setup procedure, which can be found at [MRTK-Setup page](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/MRTKSetup.md). And if you want to use Apple Silicon, you can download Unity Pre-release 2021.2.3 from Unity Hub and checkout to Unity 2021 version branch on [this project](https://github.com/FedorIvachev/OculusMRTKUnityProject).
 
 ### 1. Unpack the downloaded archive and then open the downloaded project using Unity HUB. 
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-1.png)
