@@ -43,7 +43,7 @@ Firstly,
 ### 3. Proceed to the Installs tab.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-4.png)
 
-### 4. Add Unity version 2020, click Next.
+### 4. Add Unity version 2020 or 2021, click Next.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/UNITY-Setup-5.png)
 
 ### 5. Select Visual Studio, Android Build Support and Documentation. Click Next and wait for the Unity version to be installed.
@@ -67,14 +67,11 @@ Firstly,
 ### 1. Unpack the downloaded archive and then open the downloaded project using Unity HUB. 
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-1.png)
 
-### 1.1 If you are using macOS, you will receive the following warning. You can either press "Move to bin" or "Cancel". For Windows there may be no such issue.
+### 1.1 Unity updates often, so if your version of unity does not match project's version, click on Continue opening in Non-Matching Unity Editor installation. 
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-2.png)
 
-### 1.2 If you press cancel, then select "Allow Anyway" in your security settings. 
+### 1.2 Script Updating Consent - Press Yes, for these and for other files that might be found later.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-3.png)
-
-### 1.3 Then select "Open". 
-![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-1-4.png)
 
 ### 2. After the project has been imported, navigate to Assets/MRTK/Examples/Demos/HandTracking/Scenes and Double click on the HandInteractionExamples.unity scene file.
 ![](https://github.com/FedorIvachev/IoThingsLab-ReadmeFiles/blob/master/Tutorials/NUIX-Setup-Pictures/MRTK-Setup-11.png)
