@@ -21,5 +21,5 @@ Type | Description | Located at
 Contact | Two movable square cuboids with a contact sensor: when a distance between them exceeds the defined value, a selected action is performed  | SDK/UX/Prefabs/ContactSensor/Contact.prefab
 GestureFist, GestureSpiderMan, GestureThumbsUp | Examples of gesture sensors; when triggered, a selected action is performed | SDK/UX/Prefabs/Gestures
 SightSensor | When a selected Target GameObject Appears at the selected Camera View, a selected action is performed | SDK/UX/Prefabs/SightSensor/SightSensor.prefab
-SpeechRecognition | When a defined word is said, an action is performed | SDK/UX/Prefabs/Speech/SpeechRecognition.prefab
+SpeechRecognition | When a defined word is said, an action is performed. You need to connect to Wi-Fi to use it | SDK/UX/Prefabs/Speech/SpeechRecognition.prefab
 WeightSensor | A Plane GameObject; when the total weight of GameObject lying/intersecting it exceeds the defined weight, a selected action is performed | SDK/UX/Prefabs/WeightSensor/WeightSensor.prefab
