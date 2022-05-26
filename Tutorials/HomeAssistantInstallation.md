@@ -27,6 +27,7 @@ pkg install openssh
 pkg install termux-api
 pkg install make 
 pkg install libjpeg-turbo
+pkg install binutils
 ```
 
 ## Install Home Assistant
