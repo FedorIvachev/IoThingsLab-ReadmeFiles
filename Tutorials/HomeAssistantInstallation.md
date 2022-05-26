@@ -38,7 +38,7 @@ python -m venv hass
 source hass/bin/activate
 pip install --upgrade pip
 pip install -I pytz
-pip install PyNaCl==1.4.0
+pip install PyNaCl
 pip install aiohttp_cors
 pip install tzdata
 export CARGO_BUILD_TARGET=aarch64-linux-android
